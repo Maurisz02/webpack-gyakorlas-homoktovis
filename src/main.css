@@ -1,0 +1,36 @@
+body{
+    background-image: url('../images/hatter.png');
+}
+
+.pageBody{
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#cim{
+    height: 40%;
+    padding: 50px;
+    background-color: orange;
+}
+
+#nav{
+    height: 20%;
+    background-color: white;
+    margin-top: 2%;
+    text-align: center;
+    justify-content: center;
+}
+
+.navbar-brand{
+    color: orange;
+}
+
+#popup{
+    height: 30%;
+    margin-top: 1%;
+    background-color: orange;
+    color: black;
+    font-size: 20px;
+}
