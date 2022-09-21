@@ -15,6 +15,10 @@ body{
     background-color: orange;
 }
 
+h1{
+    font-size:60px;
+}
+
 #nav{
     height: 20%;
     background-color: white;
@@ -32,6 +36,96 @@ body{
     margin-top: 1%;
     background-color: orange;
     color: black;
-    font-size: 20px;
     text-align: left;
+    vertical-align: middle;
+    margin-bottom: 1%;
+}
+
+h2{
+    font-size:40px;
+    margin-top:10px;
+    text-align: left;
+    display: block;
+    position: relative;
+    margin-left: -80%;
+}
+
+#emoji{
+    font-size: 40px;
+    margin-left: 1%;
+}
+
+#xButton{
+    font-size:30px;
+    display: block;
+    text-align: right;
+    margin-left: 7%;
+}
+
+#popupText{
+    margin-left: 1.5%;
+}
+
+h3{
+    font-size:40px;
+    margin-left: 1.5%;
+}
+
+#szovegResz{
+    background-color: white;
+    text-align: left;
+}
+
+#bokorContent{
+    background-color: lightgrey;
+    margin-top: 0.1%;
+    vertical-align: middle;
+    padding: 20px;
+}
+
+#negyKepContent{
+    margin-top: 1%;
+}
+
+.negyKep{
+    width:350px;
+    height: 350px;
+    vertical-align: middle;
+}
+
+.cst{
+    margin-top: 1.5%;
+    background-color: orange;
+    padding:10px;
+    text-align: left;
+}
+
+#cstDistance{
+    width: 200px;
+}
+
+#cstText{
+    background-color:white;
+    padding: 10px;
+    text-align: justify;
+}
+
+#tudtad{
+    box-sizing: content-box;
+}
+
+#ellenJ{
+    margin-top:1%;
+    background-color:orange;
+    text-align: left;
+}
+
+#ellenTx{
+    background-color:white;
+    text-align: justify;
+    padding: 10px;
+}
+
+#link{
+    color: orange;
 }
