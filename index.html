@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homoktövis</title>
     <link rel="stylesheet" href="dist/main.css" screen="media">
     <script src="dist/main.js"></script>
 </head>
@@ -22,7 +22,7 @@
             <div class="col-sm-6">
                 <nav class="navbar navbar-light bg-light">            
                     <a class="navbar-brand" href="#">Homoktövis</a>
-                    <a class="navbar-brand" href="#">Egészségügyi hatásai</a>
+                    <a class="navbar-brand" href="page.html">Egészségügyi hatásai</a>
                     <a class="navbar-brand" href="#">Csodanövény</a>
                     <a class="navbar-brand" href="#">Tudta-e?</a>
                     <a class="navbar-brand" href="#">Ellenjavaslat</a>    
@@ -68,15 +68,18 @@
 
         <div id="bokorContent" class="row">
             <div class="col-sm-12">
-                <image src="./images/bokor.jpg"/>
+                <image id="bokorP" src="./images/bokor.jpg"/>
+            </div>
+            <div col-sm-12>
+                <h5 id="bokorT"></h5>
             </div>
         </div>
 
         <div id="negyKepContent" class="row">
-            <div class="col-sm-3"><image class="negyKep" src="./images/homoktovis_bogyos.jpg"/></div>
-            <div class="col-sm-3"><image class="negyKep" src="./images/homoktovis_parlat.png"/></div>
-            <div class="col-sm-3"><image class="negyKep" src="./images/homoktovis_szaritottbogyo.jpg"/></div>
-            <div class="col-sm-3"><image class="negyKep" src="./images/homoktovis_szaritottorlemeny.jpg"/></div>
+            <div class="col-sm-3"><image id="p1" class="negyKep" src="./images/homoktovis_bogyos.jpg"/><div><h5 id="t1"></h5></div></div>
+            <div class="col-sm-3"><image id="p2" class="negyKep" src="./images/homoktovis_parlat.png"/><div><h5 id="t2"></h5></div></div>
+            <div class="col-sm-3"><image id="p3" class="negyKep" src="./images/homoktovis_szaritottbogyo.jpg"/><div><h5 id="t3"></h5></div></div>
+            <div class="col-sm-3"><image id="p4" class="negyKep" src="./images/homoktovis_szaritottorlemeny.jpg"/><div><h5 id="t4"></h5></div></div>
         </div>
 
         <div class="container">
