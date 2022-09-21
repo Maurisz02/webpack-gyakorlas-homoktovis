@@ -72,6 +72,7 @@ h3{
 }
 
 #szovegResz{
+    margin-top: 1%;
     background-color: white;
     text-align: left;
 }
@@ -132,4 +133,9 @@ h3{
 
 .felsorolas{
     border: 1px solid black;
+}
+
+#picker{
+    margin-top: 1%;
+    margin-bottom: 2%;
 }

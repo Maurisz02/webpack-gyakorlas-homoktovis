@@ -27,6 +27,15 @@ function szamol4(){
     document.getElementById('t4').textContent = i4++;
 }
 
+function colorPicker(e){
+    let szin = e.currentTarget.value;
+    document.getElementById('cim').style.backgroundColor = szin;
+}
+
+function exit(){
+    document.getElementById('popup').style.display = 'none';
+}
+
 
 function init(){
     document.getElementById('bokorP').addEventListener('click',szamol);
@@ -34,6 +43,8 @@ function init(){
     document.getElementById('p2').addEventListener('click',szamol2);
     document.getElementById('p3').addEventListener('click',szamol3);
     document.getElementById('p4').addEventListener('click',szamol4);
+    document.getElementById('hatter').addEventListener('input',colorPicker);
+    document.getElementById('close').addEventListener('click',exit);
 }
 
 document.addEventListener('DOMContentLoaded',init);
